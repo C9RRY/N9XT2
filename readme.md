@@ -1,7 +1,7 @@
-#Project to simplify the management of the repair shop 
+# Project to simplify the management of the repair shop 
   
 
-##Install
+## Install
 git clone https://github.com/C9RRY/N9XT2.git
 cd N9XT2
 python3 -m venv venv
@@ -10,7 +10,7 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 
-##How to run
+## How to run
 cd fix_store
 python manage.py makemigrations
 python manage.py migrate
