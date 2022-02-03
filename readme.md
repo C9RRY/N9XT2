@@ -9,13 +9,19 @@ $ cd N9XT2
 $ python3 -m venv venv
 
 $ source venv/bin/activate
+
 $ pip install --upgrade pip
+
 $ pip install -r requirements.txt
 
 
 ## How to run
 $ cd fix_store
+
 $ python manage.py makemigrations
+
 $ python manage.py migrate
+
 $ python manage.py createsuperuser
+
 $ python manage.py runserver 0.0.0.0:8000
