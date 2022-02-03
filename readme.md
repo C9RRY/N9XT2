@@ -3,8 +3,11 @@
 
 ## Install
 $ git clone https://github.com/C9RRY/N9XT2.git
+
 $ cd N9XT2
+
 $ python3 -m venv venv
+
 $ source venv/bin/activate
 $ pip install --upgrade pip
 $ pip install -r requirements.txt
