@@ -1,3 +1,4 @@
+.idea
 desktop_app
 fix_store/db.sqlite3
 fix_store/repair_shop/migrations/*.py
